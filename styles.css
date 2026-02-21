@@ -1,11 +1,11 @@
-/* Estilo general */
+/* ===== ESTILO GENERAL ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
-/* Header */
+/* ===== HEADER ===== */
 header {
     background-color: #4a90e2;
     color: white;
@@ -13,7 +13,12 @@ header {
     padding: 20px;
 }
 
-/* Navegación */
+header img {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+/* ===== NAVEGACIÓN ===== */
 nav {
     background-color: #333;
     text-align: center;
@@ -24,55 +29,40 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
     color: #4a90e2;
 }
 
-/* Sección */
-section:hover {
-    transform: translateY(-5px);
-    transition: 0.3s ease;
-}
-
-
-/* Botón */
-button {
-    background-color: #4a90e2;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #357abd;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-/* Mejoras adicionales */
-
-/* Títulos */
-h1, h2 {
-    font-weight: bold;
-}
-
-/* Centrar contenido principal */
+/* ===== CONTENIDO PRINCIPAL ===== */
 main {
     max-width: 900px;
     margin: 40px auto;
+    padding: 20px;
 }
 
+/* ===== SECCIONES ===== */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
 
-/* Botón */
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== LISTAS ===== */
+ul {
+    padding-left: 20px;
+}
+
+/* ===== BOTÓN ===== */
 button {
     background-color: #4a90e2;
     color: white;
@@ -85,4 +75,18 @@ button {
 
 button:hover {
     transform: scale(1.05);
+    background-color: #357abd;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== TÍTULOS ===== */
+h1, h2 {
+    font-weight: bold;
 }
